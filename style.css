@@ -1,0 +1,96 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(28, 36, 61, 0.8),rgba(28, 36, 61, 0.8)), url('./assets/background.png');
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+img[alt="logo"]{
+  height: 55px;
+  width: 110px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+li{
+  font-size: 16px;
+  font-family: Red Rose;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+
+.list{
+  margin-top: 10px;
+  list-style: none;
+}
+
+.list li{
+  display: inline-block;
+  padding: 0px 18px;
+  color: #EDC126;
+  font-family: Red Rose;
+}
+
+.button-small{
+  color: #ffffff;
+  background-color: #E21717;
+  padding: 10px 35px;
+  border: 0px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero{
+  text-align: center;
+  margin: 30px;
+  position: relative;
+}
+
+.hero-heading{
+  font-size: 90px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 900;
+  color: #EDC126;
+}
+
+.button-large{
+  color: #fff;
+  margin-top: 25px;
+  background-color: #E21717;
+  border: 0;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+
+img[alt="bottom-logo"]{
+  height: 130px;
+  width: 130px;
+  position: fixed;
+  margin-left: 38%;
+}
